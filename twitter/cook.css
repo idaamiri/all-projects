@@ -1,5 +1,6 @@
 body {
   background-color: #e6ecf0;
+  font-size: 17px;
 }
 /*header va navbar*/
 
@@ -14,8 +15,8 @@ body {
   height: 2rem;
   align-items: center;
 }
+
 .nav-list ul1 {
- 
   display: flex;
   list-style: none;
   direction: ltr;
@@ -26,13 +27,22 @@ body {
   display: flex;
   list-style: none;
   direction: rtl;
-  margin-left: 750px;
+  margin-left: 610px;
+}
+.twitter-icon ul3 {
+  display: flex;
+  list-style: none;
+  direction: ltr;
+  padding-left: 7rem;
 }
 
 .nav-list ul1 li a:hover {
   color: cadetblue;
 }
 .tweet-nav ul2 li a:hover {
+  color: #5f9ea0;
+}
+.tweet-nav ul3 li a:hover {
   color: #5f9ea0;
 }
 
@@ -43,6 +53,18 @@ body {
   display: flex;
   margin: 0.3rem;
   padding: 20px;
+}
+.twitter-icon ul3 li {
+  text-decoration: none;
+  background-color: #4ab3f4;
+  font-size: 1rem;
+
+  display: flex;
+  margin: 0.3rem;
+  border-radius: 30px;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
 }
 .tweet-nav ul2 li a {
   text-decoration: none;
@@ -101,7 +123,8 @@ body {
   width: 4rem;
   height: 4rem;
   position: absolute;
-  background-size: contain;border: 2px solid white;
+  background-size: contain;
+  border: 2px solid white;
 }
 
 .item3 {
@@ -113,13 +136,13 @@ body {
 }
 
 .item3 span1 {
-  padding: 10px;
+  padding: 8px;
 }
 .item3 span2 {
-  padding: 10px;
+  padding: 8px;
 }
 .item3 span3 {
-  padding: 10px;
+  padding: 8px;
 }
 .item3 span4 {
   color: #4ab3f4;
@@ -160,28 +183,7 @@ body {
 .images5 span {
   padding: 5px 10px;
 }
-
-.images1 img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-.images2 img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-.images3 img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-.images4 img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-.images5 img {
+#images {
   border-radius: 50%;
   width: 50px;
   height: 50px;
