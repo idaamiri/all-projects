@@ -2,6 +2,7 @@ body {
   background-color: #e6ecf0;
 }
 /*header va navbar*/
+
 .nav-bar {
   position: fixed;
   top: 0;
@@ -14,7 +15,7 @@ body {
   align-items: center;
 }
 .nav-list ul1 {
-  color: black;
+ 
   display: flex;
   list-style: none;
   direction: ltr;
@@ -25,7 +26,7 @@ body {
   display: flex;
   list-style: none;
   direction: rtl;
-  margin-left: 700px;
+  margin-left: 750px;
 }
 
 .nav-list ul1 li a:hover {
@@ -38,10 +39,10 @@ body {
 .nav-list ul1 li a {
   text-decoration: none;
   font-size: 1rem;
-  color: black;
+  color: rgb(122, 118, 118);
   display: flex;
   margin: 0.3rem;
-  padding: 30px;
+  padding: 20px;
 }
 .tweet-nav ul2 li a {
   text-decoration: none;
@@ -69,7 +70,7 @@ body {
   width: 290px;
   height: 250px;
   text-align: center;
-  padding-right: 5px;
+  padding-right: 7px;
 }
 
 .item1 {
@@ -88,15 +89,19 @@ body {
   flex-direction: column;
   position: relative;
 }
+#graycolor {
+  color: grey;
+}
+
 .item2 img {
   display: flex;
-  bottom: 1.5rem;
+  bottom: 1.3rem;
   left: 1.5rem;
   border-radius: 50%;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 4rem;
+  height: 4rem;
   position: absolute;
-  background-size: contain;
+  background-size: contain;border: 2px solid white;
 }
 
 .item3 {
@@ -126,7 +131,7 @@ body {
 }
 .item3 span6 {
   color: #4ab3f4;
-  padding: 45px;
+  padding: 43px;
 }
 
 /*ta inja box left*/
@@ -136,9 +141,24 @@ body {
 .middle-images {
   display: flex;
   width: 610px;
-  height: 430px;
+  height: 415px;
   flex-direction: column;
   background-color: white;
+}
+.images1 span {
+  padding: 5px 10px;
+}
+.images2 span {
+  padding: 5px 10px;
+}
+.images3 span {
+  padding: 5px 10px;
+}
+.images4 span {
+  padding: 5px 10px;
+}
+.images5 span {
+  padding: 5px 10px;
 }
 
 .images1 img {
@@ -169,10 +189,11 @@ body {
 
 .images1 {
   border-bottom: 1px solid #e6ecf0;
-  min-height: 90px;
+  min-height: 80px;
   display: flex;
   flex-direction: row;
   padding: 6px 6px;
+  padding-top: 10px;
 }
 .images2 {
   border-bottom: 1px solid #e6ecf0;
@@ -180,73 +201,83 @@ body {
   display: flex;
   flex-direction: row;
   padding: 6px 6px;
+  padding-top: 10px;
 }
 .images3 {
   border-bottom: 1px solid #e6ecf0;
-  min-height: 70px;
+  min-height: 51px;
   display: flex;
   flex-direction: row;
   padding: 6px 6px;
+  padding-top: 10px;
 }
 .images4 {
   border-bottom: 1px solid #e6ecf0;
-  min-height: 70px;
+  min-height: 51px;
   display: flex;
   flex-direction: row;
   padding: 6px 6px;
+  padding-top: 10px;
 }
 .images5 {
   border-bottom: 1px solid #e6ecf0;
-  min-height: 70px;
+  min-height: 51px;
   display: flex;
   flex-direction: row;
   padding: 6px 6px;
-}
-.images6 {
-  border-bottom: 1px solid #e6ecf0;
-  min-height: 70px;
-  display: flex;
-  flex-direction: row;
-  padding: 6px 6px;
+  padding-top: 10px;
 }
 
 /*middle box*/
 /*right box*/
 .right-box {
-  padding-left: 5px;
+  padding-left: 7px;
   flex-direction: column;
 }
 .right-images {
   display: flex;
   width: 290px;
-  height: 180px;
+  height: 245px;
   flex-direction: column;
   background-color: white;
 }
 
 .box img {
+  padding-left: 8px;
   border-radius: 50%;
-  width: 48px;
-  height: 48px;
+  width: 50px;
+  height: 50px;
 }
 
 .box {
   border-bottom: 1px solid #e6ecf0;
-  min-height: 60px;
+  min-height: 40px;
+  padding-top: 20px;
 }
 
 .box {
   display: flex;
   flex-direction: row;
 }
-.box div p {
-  color: #3f82b9;
+.box div2 p {
+  color: #4ab3f4;
   background-color: white;
   border-radius: 2rem;
   text-align: center;
   width: 60px;
   height: 20px;
   font-size: 1rem;
-  border: 0.1rem solid #7f7ffb;
+  border: 0.1rem solid #4ab3f4;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.right-images span1 {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 8px;
+}
+.box span2 {
+  padding-left: 10px;
 }
 /*right box*/
